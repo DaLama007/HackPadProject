@@ -1,7 +1,14 @@
+enum custom_keycodes {
+  KC_HIDER = SAFE_RANGE,
+  KC_DISCORD_MUTE,
+  DEVTOOLS
+};
+
 [0] = LAYOUT(
   KC_HIDER, // Key to hide all the windows
   KC_DISCORD_MUTE,// Discord mute toggle
-  DEVTOOLS  //Firefox devtools
+  DEVTOOLS,  //Firefox devtools
+  KC_MUTE
 );
 
 // cat bitmap - github: https://gist.github.com/toodaniels/e2d8a474afa9acad7d30c381dcda832e
@@ -57,7 +64,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       return false;
     case KC_HIDER:
       if(record->event.pressed){
-        tap_code(LGUI(KC_D));
+        tap_code16(LGUI(KC_D));
       }
       return false;
     
