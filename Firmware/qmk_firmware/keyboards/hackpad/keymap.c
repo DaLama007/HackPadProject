@@ -29,3 +29,18 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       return true;
   }
 };
+
+bool encoder_update_user(uint8_t index, bool clockwise) {
+  if (index == 0) { 
+    if (clockwise) {
+      for (int i = 0; i < 3; i++) {
+        tap_code(KC_WH_U); // scroll up
+      }
+    } else {
+      for (int i = 0; i < 3; i++) {
+        tap_code(KC_WH_D); // scroll down
+      }
+    }
+  }
+  return false;
+}

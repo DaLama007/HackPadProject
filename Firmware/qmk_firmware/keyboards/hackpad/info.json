@@ -7,10 +7,10 @@
     "device_version": "1.0.0"
   },
   "matrix_pins": {
-  "direct" : [
-    ["D0", "D1", "D2"]
-  ]
-},
+    "direct" : [
+      ["D0", "D1", "D2"]
+    ]
+  },
 "layouts": {
     "LAYOUT": {
       "layout": [
@@ -20,4 +20,12 @@
       ]
     }
   }
+"encoder": {
+  "rotary": [
+    {
+      "pin_a": "D2",
+      "pin_b": "D3"
+    }
+  ]
+}
 }
