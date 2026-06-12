@@ -1,5 +1,13 @@
 ## My HackPad
 
+**KeyLayout**
+1st key -> Windows Bttn + D (window hider)
+2nd key -> CTRL+ SHIFT + M (DIscord Mute)
+3rd key -> Right Mouse Bttn Click, then Q (Devtools firefox)
+Rotary encoder -> scroll down/up
+Display -> Bongo Cat
+
+
 Schematic of the circuit
 ![Schematic of the circuit](rmImages/schematic.png)
 
