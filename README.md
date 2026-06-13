@@ -7,16 +7,18 @@
 Rotary encoder -> scroll down/up
 Display -> Bongo Cat
 
+Render of expected final product
+![Render of case and parts](rmImages/render.png)
 
 Schematic of the circuit
 ![Schematic of the circuit](rmImages/schematic.png)
 
 
-PCB 
+Picture of PCB 
 ![PCB](rmImages/pcb.png)
 
 
-Case
+Picture of Case
 ![Case](rmImages/assembly.png)
 
 
